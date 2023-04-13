@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+nav{
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    background: white;   
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+    .navTitle{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        font-size: 25px;
+    }
+    .navTitle img{
+        width: 18%;
+        height: 18%;
+        margin-right: 10px;
+        background-color: rgb(10, 173, 173);
+    }
+    .searchBar{
+        width: 60%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+        border: 1px #000 solid;
+        padding: 1px 1px 1px 20px;
+    }
+    .searchBar input{
+        width: 90%;
+        border: none;
+        background-color: white;
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+    .searchBar a{
+        width: 2%;
+        height: 2%;
+        margin-right: 12%;
+        border: none;
+    }
+
+    .btn{
+        padding: 10px 15px;
+        background: white;
+        border: none;
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+    
+}   
+
+    #row{
+        width: 78%;
+        /* max-width: 60%; */
+        margin-left: 11%;
+        display: flex;
+        justify-content: space-between;
+    }
+        .bar{
+            width: 77%;
+            min-width: 77%;
+            height: 6px;
+            margin-left: 11%;
+            background-color: black;
+        }
+
+        h2{
+            margin-top: 1%;
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+#inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+} 
+    #discovery{
+        width: 850px;
+        height: 400px;    
+        display: flex;    
+        margin-left: 11%;    
+    }
+
+        .descBox{
+            width: 350px;
+            background-color: rgb(10, 173, 173);
+            
+            /* align-content: center;
+            flex-direction: column; */
+        }
+        .discImage img{
+            width: 500px;
+            height: 400px;
+        }
+
+            .text{
+                width: 90%;
+                display: flex;
+                align-content: center;
+                margin: 20px;
+                margin-top: 70px;
+                margin-bottom: 20px;
+                color: white;
+                font-size: 35px;
+            }
+
+            .discoverIcon{
+               display: flex;
+               align-content: center;
+               margin-left: 25%;               
+            }
+                .discoverIcon img{
+                    height: 40px;
+                
+                }
+                .discoverIcon input{
+                    font-size: 35px;
+                    border: none;
+                    color: white;
+                    background-color: rgb(10, 173, 173);
+                    cursor: pointer;
+                }
+
+    #aloe{
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 12%;
+    }
+        .aloeImage img{
+            width: 100%;
+            height: 300px;
+        }
+        .aloeBox{
+            width: 100%;
+            height: 75px;
+            display: flex;
+            align-content: center;
+            margin-top: auto;
+            background-color: rgb(10, 173, 173);
+            padding: 5px 5px 5px;
+        }
+
+        .aloeText{
+            display: flex;
+            align-content: center;
+            margin: 1%; 
+            margin-left: 12%;
+        }
+        .aloeBox input{
+            /* margin-top: 30px;
+            margin-left: 10%; */
+            font-size: 50px;
+            border: none;
+            color: white;
+            background-color: rgb(10, 173, 173);
+            cursor: pointer;
+        }
+        .aloeBox img{
+            height: 65px;
+
+        }
+                
+    #succulents{
+        width: 77%;
+        height: 250px;    
+        display: flex;    
+        margin: 3%;
+        margin-left: 11%; 
+        background-color: rgb(61, 218, 218);
+    }      
+    
+        .succBox{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+            .succIcon{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                margin-top: 40px;
+            }
+            .row{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;               
+                
+            }
+            .row p{
+                font-size: 18px;
+                padding: 10px 15px;
+                margin-bottom: 40px;
+                        }
+
+    #cookiePop{
+        width: 77%;
+        height: 150px;
+        margin-left: 11%;
+        bottom: 30px;
+        border: solid black;
+        position: fixed;
+        background-color: white;
+
+    }
+        .cookieText{
+            margin: 35px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .cookieText p{
+            width: 80%;
+            font-size: 25px;
+            justify-content: flex-start;
+        }
+
+        .cookieBtn{
+            width: 140px;
+            font-size: 20px;
+            padding: 10px 15px;
+            background: rgb(10, 173, 173);
+            border: none;
+            color: black;
+            cursor: pointer;
+            margin-left: 20px;
+            box-shadow: 5px 5px 2px 1px black;
+        }

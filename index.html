@@ -1,0 +1,108 @@
+<!-- MAKE THE SIZE OF THE CONTAINER FIXED WITH MIN/MAX SO THAT IT DOESN'T CHANGE WITH THE CHANGE OF RESOLUTIONS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navTitle">
+            <img src="./images/assets/leaf.png" alt="EasyBay Logo">
+            <h1>EasyBay</h1>            
+        </div>
+           
+        <div class="searchBar">
+            <input type="text" class="searchBox" placeholder="Search for anything">
+            <a id="search" href="#"><img src="./images/assets/search-dark.png" alt="Search"></a>
+        </div>
+        <a href="#"><input type="button" class="btn" value="Sign In" id="loginButton"></input></a>
+        <a id="cart" href="#"><img class="navIcon" src="./images/assets/cart-dark.png" alt="Shopping Cart"  onclick="cartClicked()"><span id="cartCount"></span></a>
+    </nav>
+    <main>
+        <div id="row">
+            <a href="#"><input type="button" class="btn" value="Aeonium"></input></a>
+            <a href="#"><input type="button" class="btn" value="Andormischus"></input></a>
+            <a href="#"><input type="button" class="btn" value="Agave"></input></a>
+            <a href="#"><input type="button" class="btn" value="Aloe"></input></a>
+            <a href="#"><input type="button" class="btn" value="Anacampseros"></input></a>
+            <a href="#"><input type="button" class="btn" value="Aristaloe"></input></a>
+            <a href="#"><input type="button" class="btn" value="More..."></input></a>
+        </div>
+        <div class="bar"></div>
+        <h2>Your Source for Serious Succulent Specialties</h2>
+
+        <div id="inside">
+        <div id="discovery">
+            <div class="descBox">
+                <div class="text">
+                    <h3>Discover succ- ulent varieties one pot or rack at a time!</h3>
+                </div>
+                <div class="discoverIcon">
+                    <a href="#"><input type="button" value="Discover"></input></a>
+                    <img src="./images/assets/arrow-light.png" alt="Discover Arrow">
+                </div>
+            </div>
+            <div class="discImage">
+                <img src="./images/assets/succulents-1.jpg" onmouseover="this.src='./images/assets/succulents-2.jpg'" onmouseout="this.src='./images/assets/succulents-1.jpg'" alt="First Succulent Image">
+            </div>
+        </div>
+        <div id="aloe">
+            <div class="aloeImage">
+                <img src="./images/assets/aloe-m.jpg" alt="aloe photo">
+            </div>
+            <div class="aloeBox">
+                <div class="aloeText">
+                    <a href="#"><input type="button" value="Soothing Aloe"></input></a>
+                    <img src="./images/assets/arrow-light.png" alt="Discover Arrow">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="succulents">
+            <div class="succBox">
+                <div class="row">   
+                    <img class="succIcon" src="./images/assets/aeonium-s.jpg" alt="aeonium photo">         
+                    <p>Aeonium</p>
+                </div>
+                <div class="row"> 
+                    <img class="succIcon" src="./images/assets/aloe-s.jpg" alt="Andormischus photo">
+                    <p>Andormischus</p>
+                </div>   
+                <div class="row">
+                    <img class="succIcon" src="./images/assets/cactus-s.jpg" alt="agave photo">
+                    <p>Agave</p>
+                </div>
+                <div class="row">
+                    <img class="succIcon" src="./images/assets/echeveria-s.jpg" alt="aloe photo">
+                    <p>Aloe</p>
+                </div>
+                <div class="row">
+                    <img class="succIcon" src="./images/assets/sedum-s.jpg" alt="anacampseros photo">
+                    <p>Anacampseros</p>
+                </div>
+                <div class="row">
+                    <img class="succIcon" src="./images/assets/sempervivum-s.jpg" alt="aristaloe photo">
+                    <p>Aristaloe</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="cookiePop">
+            <div class="cookieText">
+                <img src="./images/assets/alert-dark.png" alt="aler message">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a>.</p>
+                    
+                <div class="cookieAccept">
+                <a href="#"><input type="button" class="cookieBtn" value="I accept" onclick="byeCookie()"></input></a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
